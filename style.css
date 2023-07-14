@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #08061a, #22144d);
+}
+
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    /* ye pura 50% neiche se start ho gya */
+    top: 50%;
+    /* jitna hai usse 50% upar se start ho jye */
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    /* for glassmorphic effect */
+    backdrop-filter:blur(15px);
+    background: linear-gradient(to top left, #B6EADA55, #5B8FB933);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #294d6b;
+    z-index: 2;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #EAFDFC;
+    text-align: center;
+}
+
+.signup-header p{
+    font-size: 0.9rem;
+    color: #EAFDFC;
+    text-align: center;
+}
+
+.signup-body{
+    margin: 10px 0 ;
+}
+
+.signup-body p{
+    margin: 10px 0px;
+}
+
+.signup-body p label{
+    display: block;
+    
+    font-weight: bold;
+    color: #ebe9f2;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+.signup-body p input[type="submit"]{
+    background-color: #330be2a2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #160951;
+}
+
+.signup-footer p{
+    color: #fefdfd;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color:#f3efff;
+    
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+    position: absolute;
+}
+
+.c1{
+    top: 30px;
+    left: 300px;
+    background: linear-gradient(to right, #ffffff33, #ffffffff);
+}
+
+.c2{
+    bottom: 30px;
+    right: 25%;
+    background: linear-gradient(to left, #ffffff33, #ffffffff);
+}
